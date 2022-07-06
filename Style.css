@@ -2,20 +2,15 @@
     margin: 0%;
     padding: 0%;
 }
+.body{
+    font-family: 'Poppins', sans-serif;
+}
 
 .img-size img {
     height: 569px;
-    width: 1440px;
+    width: 1340px;
 }
-.button-design a{
-    text-decoration: none;
-    color: white;
-    background-image: linear-gradient(#FF416C,#FF4B2B);
-    border-radius: 5px;
-    padding: 10px;
-    font-size: 20px;
 
-}
 
 .bigimage {
     width: 100vw;
@@ -35,6 +30,158 @@
     align-items: center;
     text-align: center;
     font-size: 22px;
-    font-family: 'Poppins', sans-serif;
+    
 
+}
+.button-design a{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(#FF416C,#FF4B2B);
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+
+}
+.donate-today{
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 20px;
+ 
+}
+.money-sector{
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 5%;
+}
+.Money-color{
+    background-color: #f3aac7;
+    border-radius: 5px;
+
+}
+.money-sector h2{
+    padding: 5%;
+
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 500px;
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 2%;
+    padding: 1%;
+}
+.Others-ammount
+{
+    text-align: center;
+}
+.Box-Design{
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    height: 240px;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 10%;
+    margin-top: 5%;
+   
+}
+.Box1{
+    background-color: #e0dbdd;
+    padding: 50px;
+    border-radius: 20px;
+   
+}
+.Box2{
+    background-color: #f1b2ad;
+    margin: 5%;
+    padding: 50px;
+    border-radius: 20px;
+
+}
+.Box3{
+    background-color: #abe4fa;
+    padding: 50px;
+    border-radius: 20px;
+    
+}
+.Depend-Part{
+    display: flex;
+    width: 50%;
+    padding-left: 10%;
+    font-size: 20px;
+  
+}
+.Depend-Img img{
+    width: 200%;
+    padding-left: 50%;
+  
+}
+.Depend-Part2{
+    display: flex;
+    width: 50%;
+    font-size: 20px;
+
+}
+.Depend-Img2 img{
+    width: 200%;
+    padding-right: 50%;
+    margin-right: 20%;
+    
+
+}
+.email-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    width: 50%;
+    background-color: #f1b2ad;
+    margin-left: 25%;
+}
+.form-box input{
+    font-size: 18px;
+    width:60%;
+    border: none;
+    color: black;
+    padding: 5px ;
+
+}
+.form-box button{
+    color: rgb(255, 244, 244);
+    padding: 10px 15px;
+    background-color: #FF416C;
+    border: none;
+    cursor: pointer;
+
+}
+.Black-Bar{
+    margin-top: 10%;
+    padding-top: 5%;
+    width: 100vw;
+    height: 20vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items:center ;
+    
+    
+}
+span{
+    color: #FF416C;
+}
+body *{
+border: 2px solid sandybrown;
 }
